@@ -1,21 +1,22 @@
 
 
 
-COMPASS_DIRECTION = input("Enter a Compass direction: ") #0
-CITY = input("Enter a city: ") #1
-PLACE = input("Enter a place: ") #2
-VERB = input("Enter a verb: ") #3
-VERB2 = input("Enter a diffrent verb: ") #4
-PLACE2 = input("Enter a diffrent place: ") #5
-ACTIVITY = input("Enter your favorite activity: ") #6
-NOUN = input("Enter a noun: ") #7
-NOUN2 = input("Enter a diffrent noun: ") #8
-EMOTION = input("Enter an emotion: ") #9
-FAMILY = input("Enter a family member: ") #10
-FAMILY2 = input("Enter a diffrent family member: ") #11
-CITY2 = input("Enter a diffrent city: ") #12
 
-Madlib_ls = [COMPASS_DIRECTION, CITY, PLACE, VERB, VERB2, PLACE2, ACTIVITY, NOUN, NOUN2, EMOTION, FAMILY, FAMILY2, CITY2]
+compassDirection = input("Enter a Compass direction: ") #0
+City = input("Enter a city: ") #1
+place = input("Enter a place: ") #2
+verb = input("Enter a verb: ") #3
+verb2 = input("Enter a diffrent verb: ") #4
+place2 = input("Enter a diffrent place: ") #5
+activity = input("Enter your favorite activity: ") #6
+noun = input("Enter a noun: ") #7
+noun2 = input("Enter a diffrent noun: ") #8
+emotion = input("Enter an emotion: ") #9
+family = input("Enter a family member: ") #10
+family2 = input("Enter a diffrent family member: ") #11
+City2 = input("Enter a diffrent city: ") #12
+
+Madlib_ls = [compassDirection, City, place, verb, verb2, place2, activity, noun, noun2, emotion, family, family2, City2]
 
 
 
@@ -32,7 +33,7 @@ def function():
     print("Started making Trouble in my neighborhood")
     print("I got in one little",Madlib_ls[8],"and my mom got",Madlib_ls[9])
     print("She said 'You're movin' with your", Madlib_ls[10], "and", Madlib_ls[11], "in", Madlib_ls[12]+"'")
-    #print("She said 'You're movin' with your {10} and {11} in {12}'".format(Madlib_ls[10], Madlib_ls[11], c=Madlib_ls[12]))
+    print("She said 'You're movin' with your {0} and {1} in {c}'".format(Madlib_ls[0], Madlib_ls[1], c=Madlib_ls[2]))
     print("=====================================================")
     print("                                                     ")
 
